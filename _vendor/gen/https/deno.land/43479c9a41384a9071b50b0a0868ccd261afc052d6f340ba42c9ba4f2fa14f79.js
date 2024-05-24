@@ -1,0 +1,2 @@
+export * from "jsr:@std/log@0.224.1";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvZGVwcy9sb2cudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcImpzcjpAc3RkL2xvZ0AwLjIyNC4xXCI7XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsY0FBYyx1QkFBdUIifQ==

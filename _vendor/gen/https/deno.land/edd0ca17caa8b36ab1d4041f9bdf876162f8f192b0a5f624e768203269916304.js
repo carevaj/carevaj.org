@@ -1,0 +1,15 @@
+import { extract, test } from "../../deps/front_matter.ts";
+import { read } from "../utils/read.ts";
+/** Load a text file. Detect and parse the front matter */ export default async function text(path) {
+  const content = await read(path, false);
+  if (test(content)) {
+    let { attrs, body } = extract(content);
+    attrs ??= {};
+    attrs.content = body;
+    return attrs;
+  }
+  return {
+    content
+  };
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvY29yZS9sb2FkZXJzL3RleHQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgZXh0cmFjdCwgdGVzdCB9IGZyb20gXCIuLi8uLi9kZXBzL2Zyb250X21hdHRlci50c1wiO1xuaW1wb3J0IHsgcmVhZCB9IGZyb20gXCIuLi91dGlscy9yZWFkLnRzXCI7XG5cbmltcG9ydCB0eXBlIHsgUmF3RGF0YSB9IGZyb20gXCIuLi9maWxlLnRzXCI7XG5cbi8qKiBMb2FkIGEgdGV4dCBmaWxlLiBEZXRlY3QgYW5kIHBhcnNlIHRoZSBmcm9udCBtYXR0ZXIgKi9cbmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIHRleHQocGF0aDogc3RyaW5nKTogUHJvbWlzZTxSYXdEYXRhPiB7XG4gIGNvbnN0IGNvbnRlbnQgPSBhd2FpdCByZWFkKHBhdGgsIGZhbHNlKTtcblxuICBpZiAodGVzdChjb250ZW50KSkge1xuICAgIGxldCB7IGF0dHJzLCBib2R5IH0gPSBleHRyYWN0PFJhd0RhdGE+KGNvbnRlbnQpO1xuICAgIGF0dHJzID8/PSB7fTtcbiAgICBhdHRycy5jb250ZW50ID0gYm9keTtcblxuICAgIHJldHVybiBhdHRycztcbiAgfVxuXG4gIHJldHVybiB7IGNvbnRlbnQgfTtcbn1cbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFTLE9BQU8sRUFBRSxJQUFJLFFBQVEsNkJBQTZCO0FBQzNELFNBQVMsSUFBSSxRQUFRLG1CQUFtQjtBQUl4Qyx3REFBd0QsR0FDeEQsZUFBZSxlQUFlLEtBQUssSUFBWTtFQUM3QyxNQUFNLFVBQVUsTUFBTSxLQUFLLE1BQU07RUFFakMsSUFBSSxLQUFLLFVBQVU7SUFDakIsSUFBSSxFQUFFLEtBQUssRUFBRSxJQUFJLEVBQUUsR0FBRyxRQUFpQjtJQUN2QyxVQUFVLENBQUM7SUFDWCxNQUFNLE9BQU8sR0FBRztJQUVoQixPQUFPO0VBQ1Q7RUFFQSxPQUFPO0lBQUU7RUFBUTtBQUNuQiJ9

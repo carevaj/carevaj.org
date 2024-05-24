@@ -1,0 +1,4 @@
+export { parse } from "./parse.ts";
+export { stringify } from "./stringify.ts";
+export { $XML } from "./utils/types.ts";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gveG1sQDQuMC4wL21vZC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBwYXJzZSB9IGZyb20gXCIuL3BhcnNlLnRzXCJcbmV4cG9ydCB7IHN0cmluZ2lmeSB9IGZyb20gXCIuL3N0cmluZ2lmeS50c1wiXG5leHBvcnQgeyAkWE1MIH0gZnJvbSBcIi4vdXRpbHMvdHlwZXMudHNcIlxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFNBQVMsS0FBSyxRQUFRLGFBQVk7QUFDbEMsU0FBUyxTQUFTLFFBQVEsaUJBQWdCO0FBQzFDLFNBQVMsSUFBSSxRQUFRLG1CQUFrQiJ9

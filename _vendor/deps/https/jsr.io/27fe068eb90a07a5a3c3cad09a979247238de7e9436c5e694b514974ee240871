@@ -1,0 +1,1177 @@
+{
+  "manifest": {
+    "/ensure_symlink_test.ts": {
+      "size": 8181,
+      "checksum": "sha256-b6a9f5cf5d9b830d6ee42b41d5953f15fc6d46b6dbbe9262dbd0618cd8c53baa"
+    },
+    "/testdata/glob/a[b]c/foo": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/ensure_dir_test.ts": {
+      "size": 4934,
+      "checksum": "sha256-2fac58f6c43e6fdf7c0ed0738a392126e8cfa5edf772d7b423c3337339f5d0da"
+    },
+    "/walk_test.ts": {
+      "size": 7806,
+      "checksum": "sha256-d0a855b1e2359ac2626344b550d4df1a96809b2880db366ddbdb088792ea3504"
+    },
+    "/testdata/glob/abc": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/glob/abcdefghi": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/symlink/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/ext/y.rs": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/symlink/a/z": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/match/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/ext/x.ts": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/_get_file_info_type_test.ts": {
+      "size": 1235,
+      "checksum": "sha256-63cb84a947b8ee71c0c3631f9421736b61fe7345f42c77cd305c780d2c96af17"
+    },
+    "/copy.ts": {
+      "size": 11246,
+      "checksum": "sha256-9d1fec741d2a86cb3e6c0f444b0500a9ecaab425995021309120a7e1e1493d5a"
+    },
+    "/_is_same_path.ts": {
+      "size": 558,
+      "checksum": "sha256-0a042e662e70675affc38cd59ab8feb075cc0863e1eeb8df7869c355f6cb6a0e"
+    },
+    "/testdata/ensure_dir/dir/.keep": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/_to_path_string.ts": {
+      "size": 426,
+      "checksum": "sha256-dbd8713f3451eace801827c3c8c3c755917e8e42834019738fd40423c4559c86"
+    },
+    "/ensure_file_test.ts": {
+      "size": 5942,
+      "checksum": "sha256-365b61f8e3b8cf27542a2fa63217b53b4948a1daafbf7ad1e4e3691fadd6d60e"
+    },
+    "/walk.ts": {
+      "size": 7824,
+      "checksum": "sha256-4ea0e9a38d4d2f2d93225e60c18b15079b67e74232086fe1d640e98c3abbf5c8"
+    },
+    "/ensure_link.ts": {
+      "size": 1643,
+      "checksum": "sha256-f8e14b7ae4b894f42e01a9b33a00ea8426c1b7df0453f723123a37453b888fe8"
+    },
+    "/expand_glob.ts": {
+      "size": 11390,
+      "checksum": "sha256-19a619fcc772ba17b98673d6affcc84c007111ad2b7a294b619e7034a92478b6"
+    },
+    "/testdata/walk/depth/a/b/c/d/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/copy_dir/0.txt": {
+      "size": 4,
+      "checksum": "sha256-982d9e3eb996f559e633f4d194def3761d909f5a3b647d1a851fead67c32c9d1"
+    },
+    "/testdata/expand_wildcard.js": {
+      "size": 182,
+      "checksum": "sha256-98dbc4eb25276594b77e54315ce1636d053dcf120d320bb196f792362b6fbbaf"
+    },
+    "/testdata/copy_file.txt": {
+      "size": 3,
+      "checksum": "sha256-486b9a6fc855abf48847e9639f3c090855c6aafdc22a13b10e3244c37f03d3e0"
+    },
+    "/_get_file_info_type.ts": {
+      "size": 550,
+      "checksum": "sha256-da7bec18a7661dba360a1db475b826b18977582ce6fc9b25f3d4ee0403fe8cbd"
+    },
+    "/eol_test.ts": {
+      "size": 1650,
+      "checksum": "sha256-4e2aa59dc1b26a308d276246ab7e4a6a8cbe4af36c79de5251b24e93f6862f1c"
+    },
+    "/move.ts": {
+      "size": 3884,
+      "checksum": "sha256-5fabd5b6c12e9d0bbfc5d5e2459cb6754198a8cb147fe1227c156ad522fa5466"
+    },
+    "/copy_test.ts": {
+      "size": 13718,
+      "checksum": "sha256-9932433d9d7f8aedc8a066de7c7fc20cef0109c0c014c08c0763d5353b0ebc8b"
+    },
+    "/testdata/0.ts": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/_create_walk_entry.ts": {
+      "size": 1318,
+      "checksum": "sha256-e9312c9f27a5f3bdd272c40ab7f0ca605f8d5e1ea291197ffbdcf5cb0f0c4ceb"
+    },
+    "/testdata/walk/single_file/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/_is_same_path_test.ts": {
+      "size": 1715,
+      "checksum": "sha256-5b7394b6ffaaa508358ad384a24fc34d732087cdef7e67ef0a05eb670e6b3200"
+    },
+    "/testdata/walk/ext/z.py": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/deno.json": {
+      "size": 471,
+      "checksum": "sha256-c28819fb6ec3a40f5ac2284b6e12e9207fd4a4f6f0c1a20e40e71bf48c9af0a2"
+    },
+    "/empty_dir.ts": {
+      "size": 2291,
+      "checksum": "sha256-e49888446e82dd506cadaeda6d4fd6c155c85d4cef788080d1add8cf2c45ca3b"
+    },
+    "/eol.ts": {
+      "size": 1890,
+      "checksum": "sha256-508100ec12278fdeb35cb3fabf90c4726d38bca211601fef1411db8011cb9111"
+    },
+    "/ensure_symlink.ts": {
+      "size": 4453,
+      "checksum": "sha256-3953fa0339e900d27b04092537881bf7db2041f07299f8b12726f597c036ae6d"
+    },
+    "/testdata/empty_dir.ts": {
+      "size": 163,
+      "checksum": "sha256-ba3dcc7a8779b65aab3beb4230600ed0297d4829587815eda8f2ade668075731"
+    },
+    "/exists.ts": {
+      "size": 8723,
+      "checksum": "sha256-d5adf25b08541b06b51e0e6aa4bb7f02b677aa5d618939c7e8b1f48cdde9604f"
+    },
+    "/testdata/ensure_dir/f": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/exists_test.ts": {
+      "size": 10764,
+      "checksum": "sha256-152eacd549b87ccf54600f2e77bb47315a59d5b9653398a6e3e10abdc54b94b2"
+    },
+    "/_is_subdir.ts": {
+      "size": 738,
+      "checksum": "sha256-4137b137bb73dd8ca016342295225b76ee022869e41785fd18ce3bd27f2ae253"
+    },
+    "/expand_glob_test.ts": {
+      "size": 10693,
+      "checksum": "sha256-9d397d31d5b77f6037f5f58f8b136b3ac91a49312b9fc819f517709edcefd72d"
+    },
+    "/testdata/walk/nested_single_file/a/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/ensure_file.ts": {
+      "size": 2563,
+      "checksum": "sha256-ff878a93926bdaeb6a5208b085de54a66ae23b658dbf3ce9de6355f42c707e1b"
+    },
+    "/testdata/copy_dir/nest/0.txt": {
+      "size": 4,
+      "checksum": "sha256-75ef2e329bdb50d26a4ce73c2aaa567364e4ac5b5f79f7cf6d64b4cd547a863c"
+    },
+    "/ensure_link_test.ts": {
+      "size": 5294,
+      "checksum": "sha256-12ec17f62f8299acfeae3db9a80cd1774b413294968a327b5f7d0c86eb8944e3"
+    },
+    "/testdata/empty_dir_sync.ts": {
+      "size": 165,
+      "checksum": "sha256-a68d6fef190d35d3f7556713a218aea4f77fcb6cca4761bdbcdbfa49a20963a6"
+    },
+    "/empty_dir_test.ts": {
+      "size": 6430,
+      "checksum": "sha256-ada8457eef3f749512f0e6f778acb7db82e3a839a5716e09209902a97c676088"
+    },
+    "/testdata/walk/match/z": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/glob/abcdef": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/_is_subdir_test.ts": {
+      "size": 1115,
+      "checksum": "sha256-4506d0da6d92a270573053ebe368217dce56345baf702b60eac1c66be8e2eadf"
+    },
+    "/ensure_dir.ts": {
+      "size": 2770,
+      "checksum": "sha256-b6e532a8722ebfe915d00847c8de269664ee054bd6c26e7ba9a61516c2e5d5cd"
+    },
+    "/testdata/glob/subdir/abc": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/mod.ts": {
+      "size": 747,
+      "checksum": "sha256-585eb278c9fa1600dc146b4a70a1f7837ecba30237e4dcfb52eb5ac2e230528e"
+    },
+    "/move_test.ts": {
+      "size": 14456,
+      "checksum": "sha256-9f8fbb62b0075b1620935adf2b664d99b0924eb747d3dee99ca562580a21b16a"
+    },
+    "/testdata/walk/match/y": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "moduleGraph2": {
+    "/expand_glob.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/glob-to-regexp",
+          "specifierRange": [
+            [
+              1,
+              47
+            ],
+            [
+              1,
+              87
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/join-globs",
+          "specifierRange": [
+            [
+              2,
+              26
+            ],
+            [
+              2,
+              62
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/is-glob",
+          "specifierRange": [
+            [
+              3,
+              23
+            ],
+            [
+              3,
+              56
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/is-absolute",
+          "specifierRange": [
+            [
+              4,
+              27
+            ],
+            [
+              4,
+              64
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/resolve",
+          "specifierRange": [
+            [
+              5,
+              24
+            ],
+            [
+              5,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/constants",
+          "specifierRange": [
+            [
+              6,
+              34
+            ],
+            [
+              6,
+              69
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./walk.ts",
+          "specifierRange": [
+            [
+              7,
+              31
+            ],
+            [
+              7,
+              42
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/assert@^0.225.2/assert",
+          "specifierRange": [
+            [
+              8,
+              23
+            ],
+            [
+              8,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              9,
+              29
+            ],
+            [
+              9,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_create_walk_entry.ts",
+          "specifierRange": [
+            [
+              14,
+              7
+            ],
+            [
+              14,
+              32
+            ]
+          ]
+        }
+      ]
+    },
+    "/_is_subdir.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/constants",
+          "specifierRange": [
+            [
+              3,
+              26
+            ],
+            [
+              3,
+              61
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              4,
+              29
+            ],
+            [
+              4,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/eol.ts": {},
+    "/exists.ts": {},
+    "/mod.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./empty_dir.ts",
+          "specifierRange": [
+            [
+              17,
+              14
+            ],
+            [
+              17,
+              30
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              18,
+              14
+            ],
+            [
+              18,
+              31
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./ensure_file.ts",
+          "specifierRange": [
+            [
+              19,
+              14
+            ],
+            [
+              19,
+              32
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./ensure_link.ts",
+          "specifierRange": [
+            [
+              20,
+              14
+            ],
+            [
+              20,
+              32
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./ensure_symlink.ts",
+          "specifierRange": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              35
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./exists.ts",
+          "specifierRange": [
+            [
+              22,
+              14
+            ],
+            [
+              22,
+              27
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./expand_glob.ts",
+          "specifierRange": [
+            [
+              23,
+              14
+            ],
+            [
+              23,
+              32
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./move.ts",
+          "specifierRange": [
+            [
+              24,
+              14
+            ],
+            [
+              24,
+              25
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./copy.ts",
+          "specifierRange": [
+            [
+              25,
+              14
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./walk.ts",
+          "specifierRange": [
+            [
+              26,
+              14
+            ],
+            [
+              26,
+              25
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./eol.ts",
+          "specifierRange": [
+            [
+              27,
+              14
+            ],
+            [
+              27,
+              24
+            ]
+          ]
+        }
+      ]
+    },
+    "/walk.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/join",
+          "specifierRange": [
+            [
+              4,
+              21
+            ],
+            [
+              4,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/normalize",
+          "specifierRange": [
+            [
+              5,
+              26
+            ],
+            [
+              5,
+              61
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              6,
+              29
+            ],
+            [
+              6,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_create_walk_entry.ts",
+          "specifierRange": [
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              32
+            ]
+          ]
+        }
+      ]
+    },
+    "/_is_same_path.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/resolve",
+          "specifierRange": [
+            [
+              3,
+              24
+            ],
+            [
+              3,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              4,
+              29
+            ],
+            [
+              4,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/_create_walk_entry.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/basename",
+          "specifierRange": [
+            [
+              3,
+              25
+            ],
+            [
+              3,
+              59
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/normalize",
+          "specifierRange": [
+            [
+              4,
+              26
+            ],
+            [
+              4,
+              61
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              5,
+              29
+            ],
+            [
+              5,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/ensure_file.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/dirname",
+          "specifierRange": [
+            [
+              1,
+              24
+            ],
+            [
+              1,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              2,
+              41
+            ],
+            [
+              2,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_get_file_info_type.ts",
+          "specifierRange": [
+            [
+              3,
+              32
+            ],
+            [
+              3,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              4,
+              29
+            ],
+            [
+              4,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/move.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_is_subdir.ts",
+          "specifierRange": [
+            [
+              1,
+              25
+            ],
+            [
+              1,
+              42
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_is_same_path.ts",
+          "specifierRange": [
+            [
+              2,
+              27
+            ],
+            [
+              2,
+              47
+            ]
+          ]
+        }
+      ]
+    },
+    "/_to_path_string.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/from-file-url",
+          "specifierRange": [
+            [
+              3,
+              28
+            ],
+            [
+              3,
+              67
+            ]
+          ]
+        }
+      ]
+    },
+    "/ensure_symlink.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/dirname",
+          "specifierRange": [
+            [
+              1,
+              24
+            ],
+            [
+              1,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/resolve",
+          "specifierRange": [
+            [
+              2,
+              24
+            ],
+            [
+              2,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              3,
+              41
+            ],
+            [
+              3,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_get_file_info_type.ts",
+          "specifierRange": [
+            [
+              4,
+              32
+            ],
+            [
+              4,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              5,
+              29
+            ],
+            [
+              5,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/copy.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/basename",
+          "specifierRange": [
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              59
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/join",
+          "specifierRange": [
+            [
+              3,
+              21
+            ],
+            [
+              3,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/resolve",
+          "specifierRange": [
+            [
+              4,
+              24
+            ],
+            [
+              4,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              5,
+              41
+            ],
+            [
+              5,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/assert@^0.225.2/assert",
+          "specifierRange": [
+            [
+              6,
+              23
+            ],
+            [
+              6,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_get_file_info_type.ts",
+          "specifierRange": [
+            [
+              7,
+              32
+            ],
+            [
+              7,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              8,
+              29
+            ],
+            [
+              8,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_is_subdir.ts",
+          "specifierRange": [
+            [
+              9,
+              25
+            ],
+            [
+              9,
+              42
+            ]
+          ]
+        }
+      ]
+    },
+    "/ensure_dir.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_get_file_info_type.ts",
+          "specifierRange": [
+            [
+              1,
+              32
+            ],
+            [
+              1,
+              58
+            ]
+          ]
+        }
+      ]
+    },
+    "/ensure_link.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/dirname",
+          "specifierRange": [
+            [
+              1,
+              24
+            ],
+            [
+              1,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              2,
+              41
+            ],
+            [
+              2,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              3,
+              29
+            ],
+            [
+              3,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/_get_file_info_type.ts": {},
+    "/empty_dir.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/path@^0.225.1/join",
+          "specifierRange": [
+            [
+              1,
+              21
+            ],
+            [
+              1,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              2,
+              29
+            ],
+            [
+              2,
+              51
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "exports": {
+    ".": "./mod.ts",
+    "./copy": "./copy.ts",
+    "./empty-dir": "./empty_dir.ts",
+    "./ensure-dir": "./ensure_dir.ts",
+    "./ensure-file": "./ensure_file.ts",
+    "./ensure-link": "./ensure_link.ts",
+    "./ensure-symlink": "./ensure_symlink.ts",
+    "./eol": "./eol.ts",
+    "./exists": "./exists.ts",
+    "./expand-glob": "./expand_glob.ts",
+    "./move": "./move.ts",
+    "./walk": "./walk.ts"
+  }
+}

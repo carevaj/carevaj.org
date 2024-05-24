@@ -1,0 +1,17 @@
+import { parse } from "../../deps/toml.ts";
+import { isPlainObject } from "../utils/object.ts";
+import { read } from "../utils/read.ts";
+/** Load and parse a TOML file */ export default async function toml(path) {
+  const text = await read(path, false);
+  const content = parse(text);
+  if (!content) {
+    return {};
+  }
+  if (isPlainObject(content)) {
+    return content;
+  }
+  return {
+    content
+  };
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvY29yZS9sb2FkZXJzL3RvbWwudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcGFyc2UgfSBmcm9tIFwiLi4vLi4vZGVwcy90b21sLnRzXCI7XG5pbXBvcnQgeyBpc1BsYWluT2JqZWN0IH0gZnJvbSBcIi4uL3V0aWxzL29iamVjdC50c1wiO1xuaW1wb3J0IHsgcmVhZCB9IGZyb20gXCIuLi91dGlscy9yZWFkLnRzXCI7XG5cbmltcG9ydCB0eXBlIHsgUmF3RGF0YSB9IGZyb20gXCIuLi9maWxlLnRzXCI7XG5cbi8qKiBMb2FkIGFuZCBwYXJzZSBhIFRPTUwgZmlsZSAqL1xuZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gdG9tbChwYXRoOiBzdHJpbmcpOiBQcm9taXNlPFJhd0RhdGE+IHtcbiAgY29uc3QgdGV4dCA9IGF3YWl0IHJlYWQocGF0aCwgZmFsc2UpO1xuICBjb25zdCBjb250ZW50ID0gcGFyc2UodGV4dCk7XG5cbiAgaWYgKCFjb250ZW50KSB7XG4gICAgcmV0dXJuIHt9O1xuICB9XG5cbiAgaWYgKGlzUGxhaW5PYmplY3QoY29udGVudCkpIHtcbiAgICByZXR1cm4gY29udGVudCBhcyBSYXdEYXRhO1xuICB9XG5cbiAgcmV0dXJuIHsgY29udGVudCB9O1xufVxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFNBQVMsS0FBSyxRQUFRLHFCQUFxQjtBQUMzQyxTQUFTLGFBQWEsUUFBUSxxQkFBcUI7QUFDbkQsU0FBUyxJQUFJLFFBQVEsbUJBQW1CO0FBSXhDLCtCQUErQixHQUMvQixlQUFlLGVBQWUsS0FBSyxJQUFZO0VBQzdDLE1BQU0sT0FBTyxNQUFNLEtBQUssTUFBTTtFQUM5QixNQUFNLFVBQVUsTUFBTTtFQUV0QixJQUFJLENBQUMsU0FBUztJQUNaLE9BQU8sQ0FBQztFQUNWO0VBRUEsSUFBSSxjQUFjLFVBQVU7SUFDMUIsT0FBTztFQUNUO0VBRUEsT0FBTztJQUFFO0VBQVE7QUFDbkIifQ==

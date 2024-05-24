@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 24 May 2024 07:03:46 GMT",
+    "cf-ray": "888b6d817aeb155e-QRO",
+    "access-control-expose-headers": "*",
+    "x-served-by": "cache-fra-etou8220087-FRA, cache-lga21953-LGA",
+    "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "timing-allow-origin": "*",
+    "content-type": "text/plain; charset=utf-8",
+    "x-jsd-version-type": "version",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=nUSZ%2Bbnfp9BMUmaKmXhOWPq0RG72Pb0%2B7vSgPP19lxbc1zi1MrPkASUtShD5k8y3yMg2zR5xogvxVnC2mD84juN4TVLFmjCkOe87Y13FZysRildXJLrlUP9TLPaD4jDnPMX593%2FzcKu1Ncxc2cI%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "x-jsd-version": "0.4.1",
+    "x-cache": "MISS, HIT",
+    "cf-cache-status": "HIT",
+    "server": "cloudflare",
+    "cross-origin-resource-policy": "cross-origin",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "etag": "W/\"d2d-Fwf7iVwWpejnaAVA7yleS5AGCQA\"",
+    "access-control-allow-origin": "*",
+    "x-content-type-options": "nosniff",
+    "accept-ranges": "bytes",
+    "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+  },
+  "url": "https://cdn.jsdelivr.net/gh/lumeland/cms@v0.4.1/adapters/lume.ts",
+  "now": {
+    "secs_since_epoch": 1716534226,
+    "nanos_since_epoch": 274640563
+  }
+}

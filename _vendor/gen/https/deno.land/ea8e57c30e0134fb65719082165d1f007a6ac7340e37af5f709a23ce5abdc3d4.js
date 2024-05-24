@@ -1,0 +1,2 @@
+export * from "npm:@js-temporal/polyfill@0.4.4";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvZGVwcy90ZW1wb3JhbC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tIFwibnBtOkBqcy10ZW1wb3JhbC9wb2x5ZmlsbEAwLjQuNFwiO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGNBQWMsa0NBQWtDIn0=

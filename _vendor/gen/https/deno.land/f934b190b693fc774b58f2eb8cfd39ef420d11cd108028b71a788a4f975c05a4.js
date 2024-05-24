@@ -1,0 +1,8 @@
+import { number } from "../../flags/types/number.ts";
+import { Type } from "../type.ts";
+/** Number type. */ export class NumberType extends Type {
+  /** Parse number type. */ parse(type) {
+    return number(type);
+  }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvY2xpZmZ5QHYwLjI1LjcvY29tbWFuZC90eXBlcy9udW1iZXIudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgbnVtYmVyIH0gZnJvbSBcIi4uLy4uL2ZsYWdzL3R5cGVzL251bWJlci50c1wiO1xuaW1wb3J0IHsgVHlwZSB9IGZyb20gXCIuLi90eXBlLnRzXCI7XG5pbXBvcnQgdHlwZSB7IEFyZ3VtZW50VmFsdWUgfSBmcm9tIFwiLi4vdHlwZXMudHNcIjtcblxuLyoqIE51bWJlciB0eXBlLiAqL1xuZXhwb3J0IGNsYXNzIE51bWJlclR5cGUgZXh0ZW5kcyBUeXBlPG51bWJlcj4ge1xuICAvKiogUGFyc2UgbnVtYmVyIHR5cGUuICovXG4gIHB1YmxpYyBwYXJzZSh0eXBlOiBBcmd1bWVudFZhbHVlKTogbnVtYmVyIHtcbiAgICByZXR1cm4gbnVtYmVyKHR5cGUpO1xuICB9XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsU0FBUyxNQUFNLFFBQVEsOEJBQThCO0FBQ3JELFNBQVMsSUFBSSxRQUFRLGFBQWE7QUFHbEMsaUJBQWlCLEdBQ2pCLE9BQU8sTUFBTSxtQkFBbUI7RUFDOUIsdUJBQXVCLEdBQ3ZCLEFBQU8sTUFBTSxJQUFtQixFQUFVO0lBQ3hDLE9BQU8sT0FBTztFQUNoQjtBQUNGIn0=

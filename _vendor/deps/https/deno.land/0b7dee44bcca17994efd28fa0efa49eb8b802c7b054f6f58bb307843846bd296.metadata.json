@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "date": "Fri, 24 May 2024 07:04:01 GMT",
+    "cache-control": "public, max-age=31536000, immutable",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "cross-origin-embedder-policy": "same-origin",
+    "etag": "\"b9a096820464064e15f5b7bb1bc99225\"",
+    "via": "http/2 edgeproxy-h",
+    "x-amz-cf-id": "SxDW8Q6eU37oBGNuMHqfR3EBu8QW322HE2LwbUfuh-tgmrv39MDuSA==",
+    "x-amz-cf-pop": "DFW57-P6",
+    "accept-ranges": "bytes",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "server-timing": "fetchSource;dur=154",
+    "vary": "Accept-Encoding, Origin",
+    "x-amz-replication-status": "COMPLETED",
+    "cross-origin-resource-policy": "same-origin",
+    "x-amz-version-id": "Bo3QcpNstRiR99eegE6UDIQP6hSgIFTD",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "server": "deno/gcp-us-south1",
+    "x-cache": "Miss from cloudfront",
+    "content-length": "2384",
+    "access-control-allow-origin": "*",
+    "x-content-type-options": "nosniff",
+    "cross-origin-opener-policy": "same-origin",
+    "x-frame-options": "DENY",
+    "x-amz-server-side-encryption": "AES256",
+    "last-modified": "Fri, 17 May 2024 11:31:36 GMT",
+    "content-type": "application/typescript; charset=utf-8"
+  },
+  "url": "https://deno.land/x/lume@v2.2.0/plugins/terser.ts",
+  "now": {
+    "secs_since_epoch": 1716534240,
+    "nanos_since_epoch": 310383375
+  }
+}

@@ -1,0 +1,3 @@
+export * from "jsr:@std/front-matter@0.224.0/any";
+export { test } from "jsr:@std/front-matter@0.224.0";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvZGVwcy9mcm9udF9tYXR0ZXIudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcImpzcjpAc3RkL2Zyb250LW1hdHRlckAwLjIyNC4wL2FueVwiO1xuZXhwb3J0IHsgdGVzdCB9IGZyb20gXCJqc3I6QHN0ZC9mcm9udC1tYXR0ZXJAMC4yMjQuMFwiO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGNBQWMsb0NBQW9DO0FBQ2xELFNBQVMsSUFBSSxRQUFRLGdDQUFnQyJ9

@@ -1,0 +1,2 @@
+export * from "jsr:@std/fmt@0.225.1/colors";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvZGVwcy9jb2xvcnMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcImpzcjpAc3RkL2ZtdEAwLjIyNS4xL2NvbG9yc1wiO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGNBQWMsOEJBQThCIn0=

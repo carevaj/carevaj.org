@@ -1,0 +1,9 @@
+import modifyUrls from "./modify_urls.ts";
+/** A plugin to prepend a base path to all internal URLs */ export default function() {
+  return (site)=>{
+    site.use(modifyUrls({
+      fn: (url)=>url.startsWith("/") ? site.url(url) : url
+    }));
+  };
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvcGx1Z2lucy9iYXNlX3BhdGgudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IG1vZGlmeVVybHMgZnJvbSBcIi4vbW9kaWZ5X3VybHMudHNcIjtcblxuaW1wb3J0IHR5cGUgU2l0ZSBmcm9tIFwiLi4vY29yZS9zaXRlLnRzXCI7XG5cbi8qKiBBIHBsdWdpbiB0byBwcmVwZW5kIGEgYmFzZSBwYXRoIHRvIGFsbCBpbnRlcm5hbCBVUkxzICovXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiAoKSB7XG4gIHJldHVybiAoc2l0ZTogU2l0ZSkgPT4ge1xuICAgIHNpdGUudXNlKG1vZGlmeVVybHMoe1xuICAgICAgZm46ICh1cmwpID0+IHVybC5zdGFydHNXaXRoKFwiL1wiKSA/IHNpdGUudXJsKHVybCkgOiB1cmwsXG4gICAgfSkpO1xuICB9O1xufVxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sZ0JBQWdCLG1CQUFtQjtBQUkxQyx5REFBeUQsR0FDekQsZUFBZTtFQUNiLE9BQU8sQ0FBQztJQUNOLEtBQUssR0FBRyxDQUFDLFdBQVc7TUFDbEIsSUFBSSxDQUFDLE1BQVEsSUFBSSxVQUFVLENBQUMsT0FBTyxLQUFLLEdBQUcsQ0FBQyxPQUFPO0lBQ3JEO0VBQ0Y7QUFDRiJ9

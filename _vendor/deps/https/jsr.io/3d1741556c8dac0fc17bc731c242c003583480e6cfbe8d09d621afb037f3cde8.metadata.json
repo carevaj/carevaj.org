@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "x-goog-metageneration": "1",
+    "date": "Fri, 24 May 2024 07:03:51 GMT",
+    "content-type": "text/typescript",
+    "x-goog-hash": "crc32c=JeX5LQ==,md5=oerOCuAf/IYclm+KRVknrA==",
+    "x-goog-storage-class": "STANDARD",
+    "accept-ranges": "bytes",
+    "content-length": "154",
+    "server": "UploadServer",
+    "x-jsr-cache-id": "QRO-5ebba688",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "via": "1.1 google",
+    "x-guploader-uploadid": "ABPtcPr1ZRjcOA2o3UpZBd_3A3WRPqmUU39XwRHeMkbDYvQmeRMq1JVa6oiCbkDZBH3ZGQRluug",
+    "last-modified": "Thu, 16 May 2024 11:15:15 GMT",
+    "x-goog-stored-content-length": "154",
+    "etag": "\"a1eace0ae01ffc861c966f8a455927ac\"",
+    "x-goog-stored-content-encoding": "identity",
+    "cache-control": "public, max-age=31536000, immutable",
+    "content-security-policy": "default-src 'none'; script-src 'none'; style-src 'none'; img-src 'none'; font-src 'none'; connect-src 'none'; frame-src 'none'; object-src 'none'; frame-ancestors 'none'; sandbox; form-action 'none';",
+    "x-jsr-cache-status": "miss",
+    "x-robots-tag": "noindex",
+    "x-goog-generation": "1715858115908909",
+    "expires": "Sat, 24 May 2025 07:03:51 GMT"
+  },
+  "url": "https://jsr.io/@std/path/0.225.1/posix/is_glob.ts",
+  "now": {
+    "secs_since_epoch": 1716534231,
+    "nanos_since_epoch": 200116809
+  }
+}

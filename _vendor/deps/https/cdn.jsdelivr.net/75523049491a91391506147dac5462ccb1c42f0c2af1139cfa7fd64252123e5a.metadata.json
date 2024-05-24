@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=GuI2%2FRdEiyvK7BE1nHSR9GN8PpGgTQwjw19bIxEa0iEdbpbZVIP7KkeNa07b58GpK1BkxmOV8qgUCN1g0JOP2vBtjifa1%2Bc25LehmLzIheRfENtCfB%2BpfBTveds1Tdx9GTCOsBXXP32sS7dFaAw%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "access-control-allow-origin": "*",
+    "x-jsd-version-type": "version",
+    "access-control-expose-headers": "*",
+    "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+    "x-served-by": "cache-fra-eddf8230123-FRA, cache-lga21923-LGA",
+    "accept-ranges": "bytes",
+    "x-content-type-options": "nosniff",
+    "etag": "W/\"474-RjMpK4guFHy2DxIqF4uT4R1yMCI\"",
+    "cf-ray": "888b6d82ad3f155e-QRO",
+    "x-jsd-version": "0.4.1",
+    "timing-allow-origin": "*",
+    "server": "cloudflare",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-cache": "MISS, HIT",
+    "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "vary": "Accept-Encoding",
+    "content-type": "text/plain; charset=utf-8",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "HIT",
+    "date": "Fri, 24 May 2024 07:03:46 GMT"
+  },
+  "url": "https://cdn.jsdelivr.net/gh/lumeland/cms@v0.4.1/core/utils/path.ts",
+  "now": {
+    "secs_since_epoch": 1716534226,
+    "nanos_since_epoch": 476231833
+  }
+}

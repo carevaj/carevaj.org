@@ -1,0 +1,8 @@
+import { read } from "../utils/read.ts";
+/** Load binary files, like images, audio, video, etc. */ export default async function binary(path) {
+  const content = await read(path, true);
+  return {
+    content
+  };
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvY29yZS9sb2FkZXJzL2JpbmFyeS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZWFkIH0gZnJvbSBcIi4uL3V0aWxzL3JlYWQudHNcIjtcblxuaW1wb3J0IHR5cGUgeyBSYXdEYXRhIH0gZnJvbSBcIi4uL2ZpbGUudHNcIjtcblxuLyoqIExvYWQgYmluYXJ5IGZpbGVzLCBsaWtlIGltYWdlcywgYXVkaW8sIHZpZGVvLCBldGMuICovXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBiaW5hcnkocGF0aDogc3RyaW5nKTogUHJvbWlzZTxSYXdEYXRhPiB7XG4gIGNvbnN0IGNvbnRlbnQgPSBhd2FpdCByZWFkKHBhdGgsIHRydWUpO1xuICByZXR1cm4geyBjb250ZW50IH07XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsU0FBUyxJQUFJLFFBQVEsbUJBQW1CO0FBSXhDLHVEQUF1RCxHQUN2RCxlQUFlLGVBQWUsT0FBTyxJQUFZO0VBQy9DLE1BQU0sVUFBVSxNQUFNLEtBQUssTUFBTTtFQUNqQyxPQUFPO0lBQUU7RUFBUTtBQUNuQiJ9

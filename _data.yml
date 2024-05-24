@@ -1,0 +1,16 @@
+lang: en
+
+home:
+  welcome: CAREVAJ
+
+menu_links: []
+extra_head: []
+
+# Metas plugin https://lume.land/plugins/metas/#description
+metas:
+  site: carevaj.org
+  description: Campamento REcreativo VAcacional Juvenil
+  title: "=title"
+  image: "=image"
+  twitter: "@username"
+  lang: en

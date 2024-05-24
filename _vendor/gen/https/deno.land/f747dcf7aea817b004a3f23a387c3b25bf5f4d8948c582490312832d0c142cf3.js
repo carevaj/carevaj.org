@@ -1,0 +1,9 @@
+export function localIp() {
+  for (const info of Deno.networkInterfaces()){
+    if (info.family !== "IPv4" || info.address.startsWith("127.")) {
+      continue;
+    }
+    return info.address;
+  }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvY29yZS91dGlscy9uZXQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGZ1bmN0aW9uIGxvY2FsSXAoKTogc3RyaW5nIHwgdW5kZWZpbmVkIHtcbiAgZm9yIChjb25zdCBpbmZvIG9mIERlbm8ubmV0d29ya0ludGVyZmFjZXMoKSkge1xuICAgIGlmIChpbmZvLmZhbWlseSAhPT0gXCJJUHY0XCIgfHwgaW5mby5hZGRyZXNzLnN0YXJ0c1dpdGgoXCIxMjcuXCIpKSB7XG4gICAgICBjb250aW51ZTtcbiAgICB9XG5cbiAgICByZXR1cm4gaW5mby5hZGRyZXNzO1xuICB9XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxTQUFTO0VBQ2QsS0FBSyxNQUFNLFFBQVEsS0FBSyxpQkFBaUIsR0FBSTtJQUMzQyxJQUFJLEtBQUssTUFBTSxLQUFLLFVBQVUsS0FBSyxPQUFPLENBQUMsVUFBVSxDQUFDLFNBQVM7TUFDN0Q7SUFDRjtJQUVBLE9BQU8sS0FBSyxPQUFPO0VBQ3JCO0FBQ0YifQ==

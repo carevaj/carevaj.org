@@ -1,0 +1,11 @@
+/** Add a header to prevent the browser cache */ export default function noCache() {
+  return async (request, next)=>{
+    const response = await next(request);
+    const { headers } = response;
+    headers.set("cache-control", "no-cache no-store must-revalidate");
+    headers.delete("last-modified");
+    headers.delete("etag");
+    return response;
+  };
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvbWlkZGxld2FyZXMvbm9fY2FjaGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHR5cGUgeyBNaWRkbGV3YXJlIH0gZnJvbSBcIi4uL2NvcmUvc2VydmVyLnRzXCI7XG5cbi8qKiBBZGQgYSBoZWFkZXIgdG8gcHJldmVudCB0aGUgYnJvd3NlciBjYWNoZSAqL1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gbm9DYWNoZSgpOiBNaWRkbGV3YXJlIHtcbiAgcmV0dXJuIGFzeW5jIChyZXF1ZXN0LCBuZXh0KSA9PiB7XG4gICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBuZXh0KHJlcXVlc3QpO1xuICAgIGNvbnN0IHsgaGVhZGVycyB9ID0gcmVzcG9uc2U7XG4gICAgaGVhZGVycy5zZXQoXCJjYWNoZS1jb250cm9sXCIsIFwibm8tY2FjaGUgbm8tc3RvcmUgbXVzdC1yZXZhbGlkYXRlXCIpO1xuICAgIGhlYWRlcnMuZGVsZXRlKFwibGFzdC1tb2RpZmllZFwiKTtcbiAgICBoZWFkZXJzLmRlbGV0ZShcImV0YWdcIik7XG5cbiAgICByZXR1cm4gcmVzcG9uc2U7XG4gIH07XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUEsOENBQThDLEdBQzlDLGVBQWUsU0FBUztFQUN0QixPQUFPLE9BQU8sU0FBUztJQUNyQixNQUFNLFdBQVcsTUFBTSxLQUFLO0lBQzVCLE1BQU0sRUFBRSxPQUFPLEVBQUUsR0FBRztJQUNwQixRQUFRLEdBQUcsQ0FBQyxpQkFBaUI7SUFDN0IsUUFBUSxNQUFNLENBQUM7SUFDZixRQUFRLE1BQU0sQ0FBQztJQUVmLE9BQU87RUFDVDtBQUNGIn0=

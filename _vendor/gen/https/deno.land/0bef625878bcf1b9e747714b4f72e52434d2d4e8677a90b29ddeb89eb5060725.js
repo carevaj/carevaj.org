@@ -1,0 +1,3 @@
+export * from "jsr:@std/path@0.225.1";
+export * as posix from "jsr:@std/path@0.225.1/posix";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2Mi4yLjAvZGVwcy9wYXRoLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCAqIGZyb20gXCJqc3I6QHN0ZC9wYXRoQDAuMjI1LjFcIjtcbmV4cG9ydCAqIGFzIHBvc2l4IGZyb20gXCJqc3I6QHN0ZC9wYXRoQDAuMjI1LjEvcG9zaXhcIjtcbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFjLHdCQUF3QjtBQUN0QyxPQUFPLEtBQUssS0FBSyxNQUFNLDhCQUE4QiJ9

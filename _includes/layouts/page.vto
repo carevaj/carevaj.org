@@ -1,0 +1,38 @@
+---
+layout: layouts/base.vto
+bodyClass: body-tag
+---
+<article class="post" data-pagefind-body>
+  <header class="post-header">
+    <h1 class="post-title">{{ it.title }}</h1>
+
+    {{ it.subtitle |> md }}
+  </header>
+
+  {{ if toc.length }}
+  <nav class="toc">
+    <h1>Table of contents</h2>
+    <ol>
+      {{ for item of toc }}
+      <li>
+        <a href="#{{ item.slug }}">{{ item.text }}</a>
+
+        {{ if item.children.length }}
+        <ul>
+          {{ for child of item.children }}
+          <li>
+            <a href="#{{ child.slug }}">{{ child.text }}</a>
+          </li>
+          {{ /for }}
+        </ul>
+        {{ /if }}
+      </li>
+      {{ /for }}
+    </ol>
+  </nav>
+  {{ /if }}
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+</article>
