@@ -1,4 +1,4 @@
-lang: en
+lang: es
 
 home:
   welcome: CAREVAJ
@@ -13,4 +13,4 @@ metas:
   title: "=title"
   image: "=image"
   twitter: "@username"
-  lang: en
+  lang: es
