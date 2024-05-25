@@ -1,0 +1,22 @@
+nav:
+  toc: Tabla de Contenidos
+  next_post: Nueva publicación →
+  previous_post: ← Vieja publicación
+  continue_reading: Continuar leyendo →
+  archive: Más publicaciones pueden ser encontradas en <a href="/archive/">el archivo</a>.
+  back: ← Atrás
+  page: Página
+  next: Siguiente →
+  previous: ← Anterior
+post:
+  by: por
+  reading_time: min lectura
+search:
+  by_author: Publicación por 
+  by_tag: Etiquetado 
+  tags: Etiquetas
+comments:
+  title: Comentarios
+  description: |
+    Puedes dejar un comentario respondiendo a <a href=":src:">esta publicación en Mastodon</a> desde tu propia cuenta de Mastodon o cualquier otra red social con capacidad de ActivityPub que puede intercambiar respuestas con Mastodon.
+  empty: Aún no hay comentarios
