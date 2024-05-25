@@ -1,7 +1,7 @@
 ---
 title: Acta de reunion extraordinaria
 date: 2024-05-23
-author: Mtra Patricia Quijote
+author: Patricia Velezquez Tirado
 tags:
   - Actas de reunion
 ---
